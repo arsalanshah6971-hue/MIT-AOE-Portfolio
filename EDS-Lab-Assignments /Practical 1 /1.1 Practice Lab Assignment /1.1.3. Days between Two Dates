@@ -1,0 +1,13 @@
+from datetime import date 
+from datetime import datetime
+
+a = input().strip()
+b = input().strip()
+
+d1 = datetime.strptime(a,"%Y-%m-%d")
+d2 = datetime.strptime(b,"%Y-%m-%d")
+
+difference = d2 - d1
+
+print(difference.days)
+
