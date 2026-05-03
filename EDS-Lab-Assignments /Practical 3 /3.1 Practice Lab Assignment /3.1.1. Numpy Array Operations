@@ -1,0 +1,15 @@
+import numpy as np
+
+r,c = map(int,input().split())
+
+element = []
+
+for i in range(r):
+	element.extend(map(int,input().split()))
+
+arr = np.array(element).reshape(r,c)
+
+print(arr)
+print(arr.ndim)
+print(arr.shape)
+print(arr.size)
