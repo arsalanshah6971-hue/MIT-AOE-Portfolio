@@ -37,12 +37,3 @@ axes[2, 0].set_ylabel("Fare")
 
 plt.tight_layout()
 plt.show()
-
-
-
-
-
-
-
-
-
